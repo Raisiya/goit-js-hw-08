@@ -6,6 +6,6 @@ var t=arguments[3];function e(t){return(e="function"==typeof Symbol&&"symbol"==t
 },{}],"kz9M":[function(require,module,exports) {
 
 },{}],"TfQ5":[function(require,module,exports) {
-"use strict";var e=require("./gallery-items"),l=r(require("simplelightbox"));function r(e){return e&&e.__esModule?e:{default:e}}require("simplelightbox/dist/simple-lightbox.min.css");const i=document.querySelector(".gallery"),t=a(e.galleryItems);function a(e){return e.map(e=>`\n   <a class="gallery__item"\n    href="${e.original}">\n  <img class="gallery__image"\n   src="${e.preview}"\n   alt="${e.description}" />\n</a>`).join("")}i.insertAdjacentHTML("beforeend",t),new l.default(".gallery .gallery__item",{captionsData:"alt",captionDelay:250}),console.log(e.galleryItems);
+"use strict";var e=require("./gallery-items"),l=r(require("simplelightbox"));function r(e){return e&&e.__esModule?e:{default:e}}require("simplelightbox/dist/simple-lightbox.min.css");const i=document.querySelector(".gallery"),t=a(e.galleryItems);function a(e){return e.map(e=>`\n  <a class="gallery__item"\n    href="${e.original}">\n  <img class="gallery__image"\n  src="${e.preview}"\n  alt="${e.description}" />\n</a>`).join("")}i.insertAdjacentHTML("beforeend",t),new l.default(".gallery .gallery__item",{captionsData:"alt",captionDelay:250}),console.log(e.galleryItems);
 },{"./gallery-items":"q5Rn","simplelightbox":"yx6k","simplelightbox/dist/simple-lightbox.min.css":"kz9M"}]},{},["TfQ5"], null)
-//# sourceMappingURL=/Raisiya/goit-js-hw-08/01-gallery.a2234b16.js.map
+//# sourceMappingURL=/goit-js-hw-08/01-gallery.aefc6f56.js.map
